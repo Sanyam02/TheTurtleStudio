@@ -20,6 +20,9 @@ Blockly.Themes.Classic.blockStyles['seeed_blocks'] = {
 Blockly.Themes.Classic.blockStyles['grove_blocks'] = {
     "colourPrimary": "#91C11E"
 };
+Blockly.Themes.Modern.blockStyles['turtle_blocks'] = {
+    "colourPrimary": "#91C11E",  
+};
 Blockly.Themes.Classic.blockStyles['servo_blocks'] = {
     "colourPrimary": "#343434"
 };
@@ -35,6 +38,11 @@ Blockly.Themes.Modern.blockStyles['seeed_blocks'] = {
     "colourTertiary": "#91C11E"
 };
 Blockly.Themes.Modern.blockStyles['grove_blocks'] = {
+    "colourPrimary": "#91C11E",
+    "colourSecondary": "#91C11E",
+    "colourTertiary": "#91C11E"
+};
+Blockly.Themes.Modern.blockStyles['turtle_blocks'] = {
     "colourPrimary": "#91C11E",
     "colourSecondary": "#91C11E",
     "colourTertiary": "#91C11E"

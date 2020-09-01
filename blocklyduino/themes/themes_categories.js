@@ -32,6 +32,9 @@ Blockly.Themes.Modern.categoryStyles['seeed_category'] = {
 Blockly.Themes.Modern.categoryStyles['grove_category'] = {
     "colour": "#91C11E"
 };
+Blockly.Themes.Modern.categoryStyles['turtle_category'] = {
+    "colour": "#91C11E"
+};
 Blockly.Themes.Modern.categoryStyles['servo_category'] = {
     "colour": "#343434"
 };

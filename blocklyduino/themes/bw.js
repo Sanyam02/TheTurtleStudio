@@ -84,6 +84,11 @@ Blockly.Themes.blackWhite.defaultBlockStyles = {
         "colourSecondary": "#000000",
         "colourTertiary": "#000000"
     },
+    "turtle_blocks": {
+        "colourPrimary": "#000000",
+        "colourSecondary": "#000000",
+        "colourTertiary": "#000000"
+    },
     "servo_blocks": {
         "colourPrimary": "#000000",
         "colourSecondary": "#000000",
