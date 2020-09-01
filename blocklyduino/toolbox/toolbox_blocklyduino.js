@@ -488,4 +488,8 @@ BLOCKLY_TOOLBOX_XML['toolboxblocklyduino'] =
 +        '</block>'
 +        '<block type="servo_read_degrees"></block>'
 +    '</category>'
++    '<category name="%{BKY_CAT_TURTLE}" categorystyle="turtle_category">'
++                '<block type="turtle_led"></block>'
++            '<block type="turtle_button"></block>'
++    '</category>'
 + '</xml>';
