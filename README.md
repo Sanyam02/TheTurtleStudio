@@ -1,3 +1,3 @@
 # TheTurtleStudio
 
-https://github.com/Sanyam02/TheTurtleStudio
+http://sanyam02.github.io/TheTurtleStudio
