@@ -5,8 +5,8 @@
  */
 
 var MSG = {
-    title: "BDuino",
-    appName: "BlocklyDuino",
+    title: "Make Madness Studio",
+    appName: "Make Madness Studio",
     blocks: "Blocks",
     prog: "Program",
     catLogic: "💡 Logic",
@@ -20,7 +20,7 @@ var MSG = {
     listVariable: "list",
     textVariable: "text",
     screenshot: "Download Screenshot",
-    xmlError: "Could not load your saved file. Perhaps it was created with a different version of BlocklyDuino?",
+    xmlError: "Could not load your saved file. Perhaps it was created with a different version of MMF?",
     badXml: "Error parsing XML:\n%1\n\nSelect 'OK' to abandon your changes or 'Cancel' to further edit the file.",
     languageSpan: "choose language",
     interfaceColorSpan: "interface theme",
@@ -40,12 +40,12 @@ var MSG = {
     saveCodeButton_span: "Export Code",
     newButton_span: "New project",
     save_span: "Save file name?",
-    saveXMLButton_span: "Save to BlocklyDuino file",
-    loadXMLfakeButton_span: "Load BlocklyDuino file",
+    saveXMLButton_span: "Save to MMF file",
+    loadXMLfakeButton_span: "Load MMF file",
     loadXML_span: "Replace existing blocks?\n'Cancel' will merge.",
     loadXML_error_span: "Error parsing XML:\n",
-    resetButton_span: "Reset BlocklyDuino",
-    resetQuestion_span: "Reset BlocklyDuino and",
+    resetButton_span: "Reset MMF",
+    resetQuestion_span: "Reset MMF and",
     helpButton_span: "help",
     helpModalSpan_title: "Help - About",
     helpModalSpan_text:
@@ -54,9 +54,9 @@ var MSG = {
         '<tr>' +
         '<td style="width: 142px;"><img src="./blocklyduino/media/logo_only.png" alt="" width="129" height="144" /></td>' +
         '<td>' +
-        '<p style="text-align: left;"><strong>BlocklyDuino</strong></p>' +
-        '<p style="text-align: left;">BlocklyDuino is a <strong>web program for editing and visual block programming for <a href="https://www.arduino.cc/">Arduino</a> boards</strong>. It is based on <a href="https://developers.google.com/blockly/">Blockly</a>, the graphical online programming editor and on the work done on <a href="https://github.com/A-S-T-U-C-E/STudio4Education">STudio4Education</a>, a similar project for <a href="https://www.st.com/">STmicroelectronics</a> boards.</p>' +
-        '<p style="text-align: left;">BlocklyDuino provides a block programming environment and their translation into \'Arduino\' C code.</p>' +
+        '<p style="text-align: left;"><strong>Make Madness Studio</strong></p>' +
+        '<p style="text-align: left;">Make Madness Studio is a <strong>web program for editing and visual block programming for <a href="https://www.arduino.cc/">Arduino</a> boards</strong>. It is based on <a href="https://developers.google.com/blockly/">Blockly</a>, the graphical online programming editor and on the work done on <a href="https://github.com/A-S-T-U-C-E/STudio4Education">STudio4Education</a>, a similar project for <a href="https://www.st.com/">STmicroelectronics</a> boards.</p>' +
+        '<p style="text-align: left;">Make Madness Studio provides a block programming environment and their translation into \'Arduino\' C code.</p>' +
         '</td>' +
         '</tr>' +
         '</tbody>' +
