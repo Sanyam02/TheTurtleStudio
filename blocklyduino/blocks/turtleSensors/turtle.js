@@ -24,15 +24,18 @@ Blockly.Blocks['turtle_rgb_led'] = {
     init: function () {
         this.appendDummyInput()
                 .appendField("RGB LED")
-                .appendField(new Blockly.FieldImage(turtleSensorsFolder + "Chanbalelednb1.jpg", 64, 64))
+                .appendField(new Blockly.FieldImage(turtleSensorsFolder + "Chanbalelednb1.jpg", 64, 64));
+        this.appendDummyInput()
                 .appendField("Red @ PIN#")
                 .appendField(new Blockly.FieldDropdown([["6", "6"], ["10", "10"], ["11", "11"], ["12", "12"], ["13", "13"]]), "PIN1")
                 .appendField("stat")
-                .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), "STAT1")
+                .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), "STAT1");
+        this.appendDummyInput()
                 .appendField("Blue @ PIN#")
                 .appendField(new Blockly.FieldDropdown([["7", "7"], ["10", "10"], ["11", "11"], ["12", "12"], ["13", "13"]]), "PIN2")
                 .appendField("stat")
-                .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), "STAT2")
+                .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), "STAT2");
+        this.appendDummyInput()
                 .appendField("Green @ PIN#")
                 .appendField(new Blockly.FieldDropdown([["8", "8"], ["10", "10"], ["11", "11"], ["12", "12"], ["13", "13"]]), "PIN3")
                 .appendField("stat")
