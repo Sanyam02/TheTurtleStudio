@@ -210,10 +210,10 @@ Code.saveXmlBlocklyFile = function () {
     var blob = new Blob([dataToSave], {
         type: 'text/xml;charset=utf-8'
     });
-    Blockly.prompt(MSG['save_span'], 'blockly', function (fileNameSave) {
+    Blockly.prompt(MSG['save_span'], 'New Project', function (fileNameSave) {
         if (fileNameSave) {
             var fakeDownloadLink = document.createElement("a");
-            fakeDownloadLink.download = fileNameSave + ".bduino";
+            fakeDownloadLink.download = fileNameSave + ".mmsf";
             fakeDownloadLink.href = window.URL.createObjectURL(blob);
             fakeDownloadLink.onclick = function destroyClickedElement(event) {
                 document.body.removeChild(event.target);
@@ -249,7 +249,7 @@ Code.loadXmlBlocklyFile = function () {
         var selectFileDom = document.createElement('INPUT');
         selectFileDom.type = 'file';
         selectFileDom.id = 'select_file';
-        selectFileDom.accept = '.bduino, .xml';
+        selectFileDom.accept = '.mmsf, .xml';
         selectFileDom.style.display = 'none';
         document.body.appendChild(selectFileDom);
         selectFile = document.getElementById('select_file');
