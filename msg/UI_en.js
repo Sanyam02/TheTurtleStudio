@@ -54,9 +54,9 @@ var MSG = {
         '<tr>' +
         '<td style="width: 142px;"><img src="./blocklyduino/media/logo_only.png" alt="" width="129" height="144" /></td>' +
         '<td>' +
-        '<p style="text-align: left;"><strong>Make Madness Studio</strong></p>' +
-        '<p style="text-align: left;">Make Madness Studio is a <strong>web program for editing and visual block programming for <a href="https://www.arduino.cc/">Arduino</a> boards</strong>. It is based on <a href="https://developers.google.com/blockly/">Blockly</a>, the graphical online programming editor and on the work done on <a href="https://github.com/A-S-T-U-C-E/STudio4Education">STudio4Education</a>, a similar project for <a href="https://www.st.com/">STmicroelectronics</a> boards.</p>' +
-        '<p style="text-align: left;">Make Madness Studio provides a block programming environment and their translation into \'Arduino\' C code.</p>' +
+        '<p style="text-align: left;"><strong>The Turtle Studio</strong></p>' +
+        '<p style="text-align: left;">The Turtle Studio is a <strong>web program for editing and visual block programming for <a href="https://www.arduino.cc/">Arduino</a> boards</strong>. It is based on <a href="https://developers.google.com/blockly/">Blockly</a>, the graphical online programming editor and on the work done on <a href="https://github.com/A-S-T-U-C-E/STudio4Education">STudio4Education</a>, a similar project for <a href="https://www.st.com/">STmicroelectronics</a> boards.</p>' +
+        '<p style="text-align: left;">The Turtle Studio provides a block programming environment and their translation into \'Arduino\' C code.</p>' +
         '</td>' +
         '</tr>' +
         '</tbody>' +
