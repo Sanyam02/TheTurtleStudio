@@ -5,8 +5,8 @@
  */
 
 var MSG = {
-    title: "Make Madness Studio",
-    appName: "Make Madness Studio",
+    title: "The Turtle Studio",
+    appName: "The Turtle Studio",
     blocks: "Blocks",
     prog: "Program",
     catLogic: "💡 Logic",
@@ -48,7 +48,7 @@ var MSG = {
     resetQuestion_span: "Reset MMF and",
     helpButton_span: "help",
     helpModalSpan_title: "Help - About",
-    helpModalSpan_text:
+    helpModalSpan_text:        
         '<table>' +
         '<tbody>' +
         '<tr>' +
@@ -66,7 +66,7 @@ var MSG = {
         '<p style="text-align: left;">Wiki: <a href="http://www.libreduc.cc/wiki">on LibrEduc</a>.</p>' +
         '<p style="text-align: left;">A bug? Post it here: <a href="https://github.com/BlocklyDuino/BlocklyDuino-v2/issues">on Github</a>.</p>' +
         '<p style="text-align: center;">v0.7.3 - license GNU GPL version 3',
-    editorReadOnlyToggle_span: "code editor writable or read-only",
+    editorReadOnlyToggle_span: "Editable code editor",
     copyCodeButton_span: "copy code to clipboard",
     accessibilitySpan: "enable Accessibility Mode",
     defaultCursorSpan: "Default Cursor",
