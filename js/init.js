@@ -318,6 +318,7 @@ Code.initLanguage = function () {
     document.getElementById('copyCodeButton').title = MSG['copyCodeButton_span'];
     document.getElementById('keyMappingModalSpan').textContent = MSG['keyMappingModalSpan'];
     document.getElementById('detailedCompilation_span').textContent = MSG['detailedCompilation_span'];
+    document.getElementById('editorReadOnlyToggle_span').textContent = MSG['editorReadOnlyToggle_span'];
     // CLI panel
     document.getElementById('lateral-panel-CLI-label').title = MSG['config_sideButton_span'];
     document.getElementById('CLI_title_span').textContent = MSG['CLI_title_span'];
