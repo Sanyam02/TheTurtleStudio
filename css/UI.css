@@ -242,6 +242,11 @@ td.tabMiddle {
     vertical-align: middle;
 }
 
+#editorReadOnlyToggle_span{
+    color: white;
+    vertical-align: middle;
+}
+
 #content_serial {
     background: #000000;
     color: rgba(29, 147, 47, 1);
@@ -302,8 +307,10 @@ td.tabMiddle {
 /* The Close Button */
 .closeModal {
     color: #FFFFFF;
+    background-color: rgba(201, 76, 76, 0);
+    border: none;
     float: right;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
 }
 .closeModal:hover,
@@ -332,6 +339,8 @@ td.tabMiddle {
     background-color: #5cb85c;
     color: white;
 }
+
+
 
 /* Modal board selector information */
 #boardDescriptionSelector {
